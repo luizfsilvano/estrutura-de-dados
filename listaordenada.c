@@ -54,6 +54,7 @@ void inserirOrdenado(lista *l, int valor)
     {
         novo->proximo = l->inicio;
         l->inicio = novo;
+        return;
     }
     else
     {
